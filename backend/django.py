@@ -37,6 +37,15 @@
 
 # Use underscores in URL pattern names rather than dashes.
 
+# *****************************************************************************
+# CODING STYLE > DATABASE
+# *****************************************************************************
+
+# 1.Register your app in admin file in your app folder to use admin panel in django
+# 2.Create a superuser using command python manage.py createsuperuser
+# 3.Remember to migrate after you change anything in your models.py file
+# 4.Use /admin/ page to add data in your tables for testing purpose
+
 
 # *****************************************************************************
 # Deployment
@@ -65,7 +74,7 @@
 django-admin check                       # Checks the entire django project for potential problems
 django-admin changepassword <username>   # Allows changing a user’s password. It prompts you to enter a new password twice for the given user.
 django-admin clearsessions               # Can be run as a cron job or directly to clean out expired sessions.
-django-admin collectstatic               # Helps to collect all the static files in the one mentioned director
+django-admin collectstatic               # Helps to collect all the static files in the one mentioned directory
 django-admin createsuperuser             # Creates a superuser account (a user who has all permissions).
 django-admin compilemessages             # Compiles .po files to .mo files for use with builtin gettext support
 django-admin createcachetable            # Creates the tables needed to use the SQL cache backend.

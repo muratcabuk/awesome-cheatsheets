@@ -1,5 +1,39 @@
 # Visual Studio CheatSheet
 
+## Shortcuts
+
+### Linux
+
+#### General
+
+- `Ctrl`+`Shift`+`P`, `F1`:  Show Command Palette
+- `Ctrl`+`P`: Quick Open, Go to File
+- `Ctrl`+`Shift`+`N`: New window/instance
+- `Ctrl`+`W`: Close window/instance
+- `Ctrl`+`,`: User Settings
+- `Ctrl`+`K`, `Ctrl`+`S`: Keyboard Shortcuts
+
+#### Basic editing
+
+- `Ctrl`+`X`: Cut line (empty selection)
+- `Ctrl`+`C`: Copy line (empty selection)
+- `Ctrl`+`↓/↑`: Move line down / up
+- `Ctrl`+`Shift`+`K`: Delete line
+- `Ctrl`+`Enter` / `Ctrl`+`Shift`+`Enter`: Insert line below / above 
+- `Ctrl`+`Shift`+`\`: Jump to matching bracket
+- `Ctrl`+`]` / `Ctrl`+`[`: Indent / Outdent line
+- `Ctrl`+`Home` / `End`: Go to beginning / end of file
+- `Ctrl`+`↑ / ↓`: Scroll line up / down
+- `Alt`+`PgUp` / `PgDn`: Scroll page up / down
+- `Ctrl`+`Shift`+`[ / ]`: Fold / unfold region
+- `Ctrl`+`K`, `Ctrl`+`[ / ]`: Fold / unfold all subregions
+- `Ctrl`+`K`, `Ctrl`+`0` / `Ctrl`+`K`, `Ctrl`+`J`: Fold /Unfold all regions
+- `Ctrl`+`K`, `Ctrl`+`C`: Add line comment
+- `Ctrl`+`K`, `Ctrl`+`U`: Remove line comment
+- `Ctrl`+`/`: Toggle line comment
+- `Ctrl`+`Shift`+`A`: Toggle block comment
+- `Alt`+`Z`: Toggle word wrap
+
 ## Useful Extensions
 
 ### HTML & CSS
@@ -40,17 +74,31 @@
 
 - [`PHP IntelliSense`](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense): Advanced Autocompletion and Refactoring support for PHP.
 
+### Perl
+
+- [`Perl`](https://marketplace.visualstudio.com/items?itemName=cfgweb.vscode-perl): Code intelligence for the Perl language.
+
+- [`Perl Toolbox`](https://marketplace.visualstudio.com/items?itemName=d9705996.perl-toolbox): Perl Toolbox for linting and syntax checking for Perl.
+
+- [`Perl Moose`](https://marketplace.visualstudio.com/items?itemName=torrentalle.perl-moose): Perl Moose syntax highlight support for Visual Studio Code.
+
 ### Git
 
 - [`Git History`](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory): View git log, file history, compare branches or commits.
 
 - [`Gitignore`](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore): An extension for Visual Studio Code that assists you in working with .gitignore files.
 
+- [`GitLens`](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Visualize code authorship, code lens, seamlessly Git blame annotations and more.
+
+- [`Gitmoji`](https://marketplace.visualstudio.com/items?itemName=Vtrois.gitmoji-vscode): An emoji tool for your git commit messages.
+
 ### Themes
 
 - [`Material Icon Theme`](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme): Material Design Icons for Visual Studio Code.
 
 - [`Palenight Theme`](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme): An elegant and juicy material-like theme for Visual Studio Code.
+
+- [`Office Theme`](https://marketplace.visualstudio.com/items?itemName=huacat.office-theme) A Microsoft Office theme for Visual Studio Code.
 
 ### Handy
 
@@ -87,6 +135,8 @@
 - [`VS Live Share`](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare): Real-time collaborative development from the comfort of your favorite tools.
 
 - [`Wrap Console Log`](https://marketplace.visualstudio.com/items?itemName=midnightsyntax.vscode-wrap-console-log): Wrap to console.log by word or selection.
+
+- [`Bracket Pair Colorizer`](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer): Allows matching brackets to be identified with colours. 
 
 ## My Settings
 
